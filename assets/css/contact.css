@@ -1,0 +1,231 @@
+/* !Contact Section 1 Start */
+
+.contact-section-1 {
+    margin: 89px 0 86px 0;
+} 
+
+.contact-container-1 {
+    margin: 0 134px 0 133px;
+}
+
+.contact-top-container-1 {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.contact-left-container-1 {
+    margin-right: 128px;
+    width: 437px;
+}
+
+.beverly-bg {
+    margin-bottom: 16px;
+}
+
+.beverly-text h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.beverly-text p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #777;
+    line-height: 37.9px;
+}
+
+.contact-bottom-container-1 {
+    display: flex;
+    align-items: center;
+}
+
+.follow-us {
+    padding-right: 97px;
+    border-right: 1px #C2C2C2 solid;
+    margin-right: 105px;
+}
+
+.follow-text h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.follow-icon {
+    display: flex;
+    margin-left: -15px;
+}
+
+.follow-icon img {
+    cursor: pointer;
+}
+
+.follow-icon :last-child {
+    margin: 0 !important;
+}
+
+.phone-container {
+    display: flex;
+    align-items: center;
+    padding-right: 109px;
+    border-right: 1px #C2C2C2 solid;
+    height: 102px;
+    margin-right: 103.8px;
+}
+
+.phone-container img {
+    margin-right: 25px;
+}
+
+.phone-container span {
+    width: 166px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #333;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+}
+
+.location-container img {
+    margin-right: 24.3px;
+}
+
+.location-container p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+
+/* !Contact Section 1 End */
+
+/* *Contact Section 2 Start */
+
+.contact-section-2 {
+    margin-bottom: 75px;
+}
+
+.contact-container-2 {
+    padding: 54px 384px 63px 385px;;
+    height: 858px;
+    background-color: #E8F4FA;
+}
+
+.contact-top-container-2 {
+    text-align: center;
+    margin-bottom: 79px;
+}
+
+.contact-top-container-2 h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.contact-top-container-2 p {
+    font-weight: 500;
+    font-size: 13px;
+    color: #777;
+}
+
+.contact-top-contain-2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    outline:none;
+}
+
+.f-label, .s-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-label {
+    margin-right: 27px;
+}
+
+.f-label, label, .s-label label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.f-label input {
+    width: 322px;
+    height: 56px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+.s-label input {
+    width: 322px;
+    height: 56px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+.contact-bottom-contain-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-bottom-contain-2 label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.email {
+    width: 671px;
+    height: 56px;
+    border-radius: 9px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    font-size: 18x;
+    padding-left: 10px;
+    border-radius: 9px;
+    width: 671px;
+    height: 232px;
+    margin-bottom: 57px;
+}
+
+.btn-contain {
+    width: 671px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.get-btn {
+    background-color: #1090CB;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    width: 193px;
+    height: 53px;
+}
+
+/* *Contact Section 2 End */

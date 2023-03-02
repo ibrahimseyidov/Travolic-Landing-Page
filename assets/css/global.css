@@ -1,0 +1,270 @@
+@import url(/assets/css/reset.css);
+@import url(/assets/css/font.css);
+@import url(/assets/css/style.css);
+@import url(/assets/css/about.css);
+@import url(/assets/css/services.css);
+@import url(/assets/css/contact.css);
+
+/* !Header Start */
+
+.header {
+    height: 102px;
+    padding: 32px 30px 29px 32px;
+    border-bottom: 0.7px solid #C4C4C4;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 29px;
+    color: #1090CB;
+    cursor: pointer;
+}
+
+.logo {
+    flex: 1;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li:not(:last-child) {
+    margin-right: 71px;
+}
+
+.nav ul li:first-child a {
+    position: relative;
+    font-weight: 400;
+    color: #1090CB !important;
+    font-size: 16px;
+}
+
+.nav ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.blue-btn {
+    background-color: #1090CB;
+    border: none;
+    width: 125px;
+    height: 41px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.ellipse-icon {
+    position: absolute;
+    top: -15%;
+    left: -15%;
+}
+
+/* !Header End */
+
+/* *Home Section 6 Start */
+
+.home-section-6 {
+    margin-bottom: 87px;
+}
+
+.home-container-6 {
+    height: 534px;
+    background-color: #E8F4FA;
+    padding: 148px 360px 148px 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.home-contain-6 {
+    width: 719px;
+}
+
+.home-head-6 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.home-head-6 h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 51px;
+    color: #252525;
+}
+
+.subscribe-container-6 {
+    display: flex;
+    align-items: center;
+}
+
+.email-input {
+    padding: 20px 0;
+    padding-left: 36px;
+    width: 532px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #787878;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 14px;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.07);
+}
+
+.subscribe-btn {
+    background-color: #000;
+    width: 173px;
+    height: 67px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF4F4;
+}
+
+.star {
+    position: absolute;
+    left: 167px;
+    top: -40px;
+}
+
+.pai {
+    position: absolute;
+    top: 94px;
+    right: 397px;
+}
+
+/* *Home Section 6 End */
+
+/* !Footer Section Start */
+
+.footer-section {
+    height: 268px;
+    margin-bottom: 27px;
+}
+
+.footer-container {
+    display: flex;
+    border-bottom: 0.8px solid #D2D2D2;
+    padding: 0 60px 53px 101px;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin-right: 78px;
+}
+
+.logo-container h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #1090CB;
+    margin-bottom: 27px;
+}
+
+.logo-container :nth-child(2) {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #515151;
+    line-height: 24px;
+    width: 372px;
+}
+
+.logo-container :nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin-right: 144px;
+}
+
+.about-us h3 {
+    font-weight: 500;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 35px;
+    width: 77px;
+}
+
+.about-us a {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.about-us :last-child {
+    width: 88px;
+}
+
+.contact-us {
+    margin-right: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us h3 {
+    font-weight: 500;
+    font-size: 17px;
+    color: #000;
+}
+
+.contact-us :nth-child(2),
+:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #515151;
+}
+
+.contact-us :nth-child(2) {
+    width: 282px;
+}
+
+.social-media {
+    display: flex;
+    align-items: flex-end;
+}
+
+.media {
+    display: flex; 
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    padding: 29px 0 27px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #686868;
+}
+
+/* !Footer Section End */

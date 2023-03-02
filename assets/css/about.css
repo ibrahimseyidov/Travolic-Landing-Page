@@ -1,0 +1,248 @@
+/* !About Section 1 Start */
+
+.about-section-1 {
+    position: relative;
+    margin-bottom: 220px;
+}
+
+.about-container-1 {
+    margin: 156px 132px 0 89px;
+}
+
+.about-top-container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.about-image-1 {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 69px;
+}
+
+.about-image-1 :first-child {
+    margin-right: 50px;
+}
+
+.about-text-1 {
+    margin-top: 20px;
+}
+
+.about-text-1 span {
+    font-weight: 400;
+    font-size: 25px;
+    color: #1090CB;
+}
+
+.about-text-1 h2 {
+    margin-top: 19px;
+    margin-bottom: 37px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 68px;
+    color: #252525;
+}
+
+.about-text-1 p {
+    width: 463px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31.5px;
+    color: #868686;
+}
+
+.about-bottom-container-1 {
+    display: flex;
+    margin-right: 163px;
+    margin-left: 74px;
+}
+
+.about-bottom-container-1 :first-child {
+    margin-right: 51px;
+}
+
+.right-bg {
+    position: absolute;
+    top: -250px;
+    right: 0px;
+}
+
+.left-bg {
+    position: absolute;
+    bottom: -25%;
+    left: 0px;
+}
+
+.iframe {
+    position: absolute;
+    bottom: -80px;
+    right: 60px;
+    z-index: -2;
+}
+
+/* !About Section 1 End */
+
+/* ?About Section 2 Start */
+
+.about-container-2 {
+    margin: 0 303px 178px 123px;
+}
+
+.about-top-contain-2 {
+    width: 807px;
+    margin-bottom: 48px;
+}
+
+.about-top-contain-2 h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #1090CB;
+    line-height: 72px;
+}
+
+.about-bottom-contain-2 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #585858;
+}
+
+/* ?About Section 2 End */
+
+/* *About Section 3 Start */
+
+.about-section-3 {
+    margin: 0 0 197px 123px;
+}
+
+.about-container-3 {
+    display: flex;
+}
+
+.about-left-container-3 {
+    width: 499px;
+    position: relative;
+    margin-right: 52px;
+}
+
+.about-left-container-3 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #000;
+    margin-bottom: 31px;
+}
+
+.about-left-container-3 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color:#585858;
+    margin-bottom: 62px;
+    width: 487px;
+}
+
+.about-border {
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.about-contact-btn {
+    width: 193px;
+    height: 51px;
+    color: #1090CB !important; 
+    border: 1px solid #1090CB;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-right-container-3 {
+    box-shadow: 0px 4px 124px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 766px;
+}
+
+.about-right-bg-3 {
+    padding: 65px 91px 95px 61px;
+}
+
+.about-top-3 {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.about-bottom-3 {
+    display: flex;
+}
+
+.about-web, .about-seo, 
+.about-mobile, .about-ar {
+    display: flex;
+    align-items: center;
+}
+
+.about-web {
+    margin-right: 90px;
+}
+
+.about-mobile {
+    margin-right: 56px;
+}
+
+.about-web-text, .about-mobile-text,
+.about-seo-text, .about-ar-text h3 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44.48px;
+    color: #2E0D64;
+}
+
+.web-bg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 90px;
+    background-color: #FFF2F2;
+    border-radius: 20px;
+    margin-right: 29px;
+}
+
+.seo-bg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 90px;
+    background-color: #E2F3FF;
+    border-radius: 20px;
+    margin-right: 22px;
+}
+
+.mobile-bg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 90px;
+    background-color: #F1E8FF;
+    border-radius: 20px;
+    margin-right: 22px;
+}
+
+.ar-bg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 90px;
+    background-color: #FFE7FB;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+/* *About Section 3 End */
